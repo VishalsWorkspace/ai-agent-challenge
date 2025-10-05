@@ -9,8 +9,5 @@ __pycache__/
 # Secrets file
 .env
 
-# Generated parser output
-custom_parsers/
-
 # IDE settings folder
 .vscode/
