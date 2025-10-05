@@ -12,11 +12,10 @@ def build_graph():
     workflow.add_node("execute_and_test", execute_and_test)
 
     workflow.set_entry_point("read_files")
-
     workflow.add_edge("read_files", "plan")
     workflow.add_edge("plan", "generate_code")
     workflow.add_edge("generate_code", "execute_and_test")
-    
+
     workflow.add_conditional_edges(
         "execute_and_test",
         decide_next_step,

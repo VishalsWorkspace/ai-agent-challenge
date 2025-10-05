@@ -2,7 +2,7 @@ from typing import TypedDict, List
 
 class AgentState(TypedDict):
     """
-    Represents the shared memory state of the agent as it moves through the graph.
+    Shared memory state of the agent across the graph.
     """
     target_bank: str
     pdf_path: str

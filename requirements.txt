@@ -1,8 +1,6 @@
-langgraph
-langchain
-google-generativeai
-pandas
-pypdf
-pytest
-python-dotenv
-setuptools
+pandas==2.2.2
+pypdf==4.3.1
+python-dotenv==1.0.1
+google-generativeai==0.7.2
+langgraph==0.2.35
+pytest==8.4.2
