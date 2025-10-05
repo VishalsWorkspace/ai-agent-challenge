@@ -1,0 +1,16 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets file
+.env
+
+# Generated parser output
+custom_parsers/
+
+# IDE settings folder
+.vscode/

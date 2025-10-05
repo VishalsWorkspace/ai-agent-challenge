@@ -1,0 +1,8 @@
+langgraph
+langchain
+google-generativeai
+pandas
+pypdf
+pytest
+python-dotenv
+setuptools
