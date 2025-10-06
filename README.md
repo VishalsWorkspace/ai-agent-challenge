@@ -116,3 +116,7 @@ A key challenge was the **inconsistent text extraction** from the sample PDF. My
 ├── requirements.txt       # Project dependencies
 └── README.md              # This file
 ```
+
+## 🔗 Demo Video
+
+https://drive.google.com/file/d/1IywGSqKJDaGEf47QePw2KOxFs9qpisCS/view?usp=sharing
